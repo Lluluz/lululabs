@@ -1,10 +1,10 @@
-# Ludo.Blog - Travel Blog
+# Ludovica.Blog - Travel Blog
 
 Ludovica Sidoti's travel blog documenting adventures around the world.
 
 ## Live Site
 
-https://ludo.blog
+https://ludovica.blog
 
 ## Features
 
@@ -23,7 +23,7 @@ To add new blog posts, edit `index.html` and duplicate the post-card sections. Y
 
 ## DNS Configuration
 
-Add these A records at your domain registrar for ludo.blog:
+Add these A records at your domain registrar for ludovica.blog:
 ```
 185.199.108.153
 185.199.109.153
