@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ludovica Sidoti - Travel Blog">
+    <title>Ludo.Blog - Travel Adventures</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background: linear-gradient(135deg, #43cea2 0%, #185a9d 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            opacity: 0.95;
+        }
+
+        nav {
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #43cea2;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .intro h2 {
+            font-size: 2rem;
+            color: #185a9d;
+            margin-bottom: 1rem;
+        }
+
+        .intro p {
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+            color: #666;
+        }
+
+        .posts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .post-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .post-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+        }
+
+        .post-image {
+            width: 100%;
+            height: 240px;
+            background: linear-gradient(135deg, #43cea2 0%, #185a9d 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+        }
+
+        .post-content {
+            padding: 1.5rem;
+        }
+
+        .post-date {
+            color: #43cea2;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .post-title {
+            font-size: 1.5rem;
+            margin-bottom: 0.75rem;
+            color: #185a9d;
+        }
+
+        .post-excerpt {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+        }
+
+        footer a {
+            color: #43cea2;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav ul {
+                gap: 1rem;
+            }
+
+            .posts-grid {
+                grid-template-columns: 1fr;
+            }
+
+            main {
+                margin: 2rem auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ludo.Blog</h1>
+        <p>Travel Adventures by Ludovica Sidoti</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="https://ludovicasidoti.com">Main Site</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="intro">
+            <h2>Welcome to My Travel Blog</h2>
+            <p>Join me as I explore the world, one adventure at a time. Here I share my travel stories, tips, and experiences from around the globe.</p>
+        </section>
+
+        <div class="posts-grid">
+            <!-- Sample Blog Post 1 -->
+            <article class="post-card">
+                <div class="post-image">🏔️</div>
+                <div class="post-content">
+                    <div class="post-date">Coming Soon</div>
+                    <h3 class="post-title">Mountain Adventures</h3>
+                    <p class="post-excerpt">Exploring the peaks and valleys of breathtaking mountain ranges...</p>
+                </div>
+            </article>
+
+            <!-- Sample Blog Post 2 -->
+            <article class="post-card">
+                <div class="post-image">🏖️</div>
+                <div class="post-content">
+                    <div class="post-date">Coming Soon</div>
+                    <h3 class="post-title">Coastal Escapes</h3>
+                    <p class="post-excerpt">Discovering hidden beaches and coastal towns along the Mediterranean...</p>
+                </div>
+            </article>
+
+            <!-- Sample Blog Post 3 -->
+            <article class="post-card">
+                <div class="post-image">🏙️</div>
+                <div class="post-content">
+                    <div class="post-date">Coming Soon</div>
+                    <h3 class="post-title">Urban Explorations</h3>
+                    <p class="post-excerpt">Getting lost in the vibrant streets and cultures of world cities...</p>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ludovica Sidoti | <a href="https://ludo.you">All Links</a> | <a href="https://ludovicasidoti.com">Main Website</a></p>
+    </footer>
+</body>
+</html>
