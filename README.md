@@ -1,10 +1,10 @@
-# Ludovica.Blog - Travel Blog
+# Lulu Labs - Travel Blog
 
 Ludovica Sidoti's travel blog documenting adventures around the world.
 
 ## Live Site
 
-https://ludovica.blog
+https://lululabs.org
 
 ## Features
 
@@ -23,7 +23,7 @@ To add new blog posts, edit `index.html` and duplicate the post-card sections. Y
 
 ## DNS Configuration
 
-Add these A records at your domain registrar for ludovica.blog:
+Add these A records at your domain registrar for lululabs.org:
 ```
 185.199.108.153
 185.199.109.153
